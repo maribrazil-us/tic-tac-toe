@@ -24,6 +24,45 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <style>
+      button {
+        background-color: #F5DF4D;
+        border: 6px solid grey;
+        border-radius: 10px;
+      }
+      .game-board {
+        width: 600px;
+        height: 600px;
+        margin: 0 auto;
+        background-color: #34495e;
+        color: #F5DF4D;
+        border: 6px solid #34495e;
+        border-radius: 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+      }
+
+      .grid-row {
+        border: 6px solid #739dc7;
+        border-radius: 6px;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 4em;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: grey;
+      }
+      .block {
+        background-color: rgb(219, 28, 28);
+        border: 6px solid green;
+        border-radius: 6px;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 20em;
+      }
+    </style>
     <title>React App</title>
   </head>
   <body>
